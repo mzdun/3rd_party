@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\libzlib\adler32.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libzlib\compress.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libzlib\crc32.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libzlib\deflate.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libzlib\gzio.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libzlib\infback.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libzlib\inffast.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libzlib\inflate.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libzlib\inftrees.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libzlib\ioapi.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libzlib\iowin32.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libzlib\trees.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libzlib\uncompr.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libzlib\unzip.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libzlib\zip.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libzlib\zutil.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\libzlib\crc32.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libzlib\deflate.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libzlib\inffast.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libzlib\inffixed.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libzlib\inflate.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libzlib\inftrees.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libzlib\zutil.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\includes\ioapi.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\includes\unzip.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\includes\zconf.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\includes\zip.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\includes\zlib.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="inc">
+      <UniqueIdentifier>{f1b8ce67-e2ab-4338-87a3-f5d3f02b1e21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="includes">
+      <UniqueIdentifier>{a775c839-f166-4518-b25a-203d96cc30e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{cfcc233e-8211-4d15-9ebd-b225c8dca3b1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
