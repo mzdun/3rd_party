@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\libexpat\amigaconfig.h" />
+    <ClInclude Include="..\..\libexpat\ascii.h" />
+    <ClInclude Include="..\..\libexpat\asciitab.h" />
+    <ClInclude Include="..\..\libexpat\expat_config.h" />
+    <ClInclude Include="..\..\libexpat\iasciitab.h" />
+    <ClInclude Include="..\..\libexpat\internal.h" />
+    <ClInclude Include="..\..\libexpat\latin1tab.h" />
+    <ClInclude Include="..\..\libexpat\macconfig.h" />
+    <ClInclude Include="..\..\libexpat\nametab.h" />
+    <ClInclude Include="..\..\libexpat\utf8tab.h" />
+    <ClInclude Include="..\..\libexpat\winconfig.h" />
+    <ClInclude Include="..\..\libexpat\xmlrole.h" />
+    <ClInclude Include="..\..\libexpat\xmltok.h" />
+    <ClInclude Include="..\..\libexpat\xmltok_impl.h" />
+    <ClInclude Include="..\..\includes\expat.h" />
+    <ClInclude Include="..\..\includes\expat_external.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\libexpat\xmlparse.c" />
+    <ClCompile Include="..\..\libexpat\xmlrole.c" />
+    <ClCompile Include="..\..\libexpat\xmltok.c" />
+    <ClCompile Include="..\..\libexpat\xmltok_impl.c" />
+    <ClCompile Include="..\..\libexpat\xmltok_ns.c" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A432694A-25B2-4CB8-A93F-CBB7A5D92D22}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>libexpat</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)'=='Debug'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)'=='Release'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(SolutionDir)\Solution.props" Condition="exists('$(SolutionDir)\Solution.props')" />
+    <Import Project="$(SolutionDir)\$(Platform).props" Condition="exists('$(SolutionDir)\$(Platform).props')" />
+    <Import Project="$(SolutionDir)\$(Configuration).props" Condition="exists('$(SolutionDir)\$(Configuration).props')" />
+    <Import Project="$(SolutionDir)\$(Platform).$(Configuration).props" Condition="exists('$(SolutionDir)\$(Platform).$(Configuration).props')" />
+    <Import Project="$(SolutionDir)\libexpat.props" Condition="exists('$(SolutionDir)\libexpat.props')" />
+    <Import Project="$(SolutionDir)\libexpat.$(Platform).props" Condition="exists('$(SolutionDir)\libexpat.$(Platform).props')" />
+    <Import Project="$(SolutionDir)\libexpat.$(Configuration).props" Condition="exists('$(SolutionDir)\libexpat.$(Configuration).props')" />
+    <Import Project="$(SolutionDir)\libexpat.$(Platform).$(Configuration).props" Condition="exists('$(SolutionDir)\libexpat.$(Platform).$(Configuration).props')" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

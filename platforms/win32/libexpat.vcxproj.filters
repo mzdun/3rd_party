@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="includes">
+      <UniqueIdentifier>{fb88f64b-351a-4728-9614-90670321aa7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{42ad9c85-5f36-4a7d-8257-670fc43691b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc">
+      <UniqueIdentifier>{e5aaf90f-d31f-4020-bbc8-5759c3b84e6f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\libexpat\xmltok_impl.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libexpat\xmltok.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libexpat\xmlrole.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libexpat\winconfig.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libexpat\utf8tab.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libexpat\nametab.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libexpat\macconfig.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libexpat\latin1tab.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libexpat\internal.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libexpat\iasciitab.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libexpat\expat_config.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libexpat\asciitab.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libexpat\ascii.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libexpat\amigaconfig.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\includes\expat_external.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\includes\expat.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\libexpat\xmltok_ns.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libexpat\xmltok_impl.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libexpat\xmltok.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libexpat\xmlrole.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libexpat\xmlparse.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
