@@ -5,43 +5,22 @@
       <Configuration>Debug</Configuration>
       <Platform>Win32</Platform>
     </ProjectConfiguration>
-    <ProjectConfiguration Include="Debug|x64">
-      <Configuration>Debug</Configuration>
-      <Platform>x64</Platform>
-    </ProjectConfiguration>
     <ProjectConfiguration Include="Release|Win32">
       <Configuration>Release</Configuration>
       <Platform>Win32</Platform>
-    </ProjectConfiguration>
-    <ProjectConfiguration Include="Release|x64">
-      <Configuration>Release</Configuration>
-      <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{BD334C61-C2F4-4D62-B08C-DBB562F0BA43}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>3rdparty</RootNamespace>
+    <RootNamespace>libzlib</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+  <PropertyGroup Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v120</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
-    <ConfigurationType>StaticLibrary</ConfigurationType>
-    <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v120</PlatformToolset>
-    <WholeProgramOptimization>true</WholeProgramOptimization>
-    <CharacterSet>Unicode</CharacterSet>
-  </PropertyGroup>
-  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <PlatformToolset>v120</PlatformToolset>
-  </PropertyGroup>
-  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <PlatformToolset>v120</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -57,10 +36,10 @@
     <Import Project="$(SolutionDir)\$(Platform).props" Condition="exists('$(SolutionDir)\$(Platform).props')" />
     <Import Project="$(SolutionDir)\$(Configuration).props" Condition="exists('$(SolutionDir)\$(Configuration).props')" />
     <Import Project="$(SolutionDir)\$(Platform).$(Configuration).props" Condition="exists('$(SolutionDir)\$(Platform).$(Configuration).props')" />
-    <Import Project="$(SolutionDir)\3rdparty.props" Condition="exists('$(SolutionDir)\3rdparty.props')" />
-    <Import Project="$(SolutionDir)\3rdparty.$(Platform).props" Condition="exists('$(SolutionDir)\3rdparty.$(Platform).props')" />
-    <Import Project="$(SolutionDir)\3rdparty.$(Configuration).props" Condition="exists('$(SolutionDir)\3rdparty.$(Configuration).props')" />
-    <Import Project="$(SolutionDir)\3rdparty.$(Platform).$(Configuration).props" Condition="exists('$(SolutionDir)\3rdparty.$(Platform).$(Configuration).props')" />
+    <Import Project="$(SolutionDir)\libzlib.props" Condition="exists('$(SolutionDir)\libzlib.props')" />
+    <Import Project="$(SolutionDir)\libzlib.$(Platform).props" Condition="exists('$(SolutionDir)\libzlib.$(Platform).props')" />
+    <Import Project="$(SolutionDir)\libzlib.$(Configuration).props" Condition="exists('$(SolutionDir)\libzlib.$(Configuration).props')" />
+    <Import Project="$(SolutionDir)\libzlib.$(Platform).$(Configuration).props" Condition="exists('$(SolutionDir)\libzlib.$(Platform).$(Configuration).props')" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <ItemGroup>

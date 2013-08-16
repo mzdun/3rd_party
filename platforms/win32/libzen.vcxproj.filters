@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\libzen\Conf.cpp" />
+    <ClCompile Include="..\..\libzen\CriticalSection.cpp" />
+    <ClCompile Include="..\..\libzen\Dir.cpp" />
+    <ClCompile Include="..\..\libzen\File.cpp" />
+    <ClCompile Include="..\..\libzen\FileName.cpp" />
+    <ClCompile Include="..\..\libzen\HTTP_Client.cpp" />
+    <ClCompile Include="..\..\libzen\InfoMap.cpp" />
+    <ClCompile Include="..\..\libzen\int128s.cpp" />
+    <ClCompile Include="..\..\libzen\int128u.cpp" />
+    <ClCompile Include="..\..\libzen\MemoryDebug.cpp" />
+    <ClCompile Include="..\..\libzen\OS_Utils.cpp" />
+    <ClCompile Include="..\..\libzen\PreComp.cpp" />
+    <ClCompile Include="..\..\libzen\Thread.cpp" />
+    <ClCompile Include="..\..\libzen\Translation.cpp" />
+    <ClCompile Include="..\..\libzen\Utils.cpp" />
+    <ClCompile Include="..\..\libzen\Ztring.cpp" />
+    <ClCompile Include="..\..\libzen\ZtringList.cpp" />
+    <ClCompile Include="..\..\libzen\ZtringListList.cpp" />
+    <ClCompile Include="..\..\libzen\ZtringListListF.cpp" />
+    <ClCompile Include="..\..\libzen\Format\Html\Html_Handler.cpp" />
+    <ClCompile Include="..\..\libzen\Format\Html\Html_Request.cpp" />
+    <ClCompile Include="..\..\libzen\Format\Http\Http_Cookies.cpp" />
+    <ClCompile Include="..\..\libzen\Format\Http\Http_Handler.cpp" />
+    <ClCompile Include="..\..\libzen\Format\Http\Http_Request.cpp" />
+    <ClCompile Include="..\..\libzen\Format\Http\Http_Utils.cpp" />
+  </ItemGroup>
+</Project>

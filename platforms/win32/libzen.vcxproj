@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CB1B6F03-0C3B-4B4E-B4AE-9AAC8C068137}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>libzen</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(SolutionDir)\Solution.props" Condition="exists('$(SolutionDir)\Solution.props')" />
+    <Import Project="$(SolutionDir)\$(Platform).props" Condition="exists('$(SolutionDir)\$(Platform).props')" />
+    <Import Project="$(SolutionDir)\$(Configuration).props" Condition="exists('$(SolutionDir)\$(Configuration).props')" />
+    <Import Project="$(SolutionDir)\$(Platform).$(Configuration).props" Condition="exists('$(SolutionDir)\$(Platform).$(Configuration).props')" />
+    <Import Project="$(SolutionDir)\libzen.props" Condition="exists('$(SolutionDir)\libzen.props')" />
+    <Import Project="$(SolutionDir)\libzen.$(Platform).props" Condition="exists('$(SolutionDir)\libzen.$(Platform).props')" />
+    <Import Project="$(SolutionDir)\libzen.$(Configuration).props" Condition="exists('$(SolutionDir)\libzen.$(Configuration).props')" />
+    <Import Project="$(SolutionDir)\libzen.$(Platform).$(Configuration).props" Condition="exists('$(SolutionDir)\libzen.$(Platform).$(Configuration).props')" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemGroup>
+    <ClCompile Include="..\..\libzen\Conf.cpp" />
+    <ClCompile Include="..\..\libzen\CriticalSection.cpp" />
+    <ClCompile Include="..\..\libzen\Dir.cpp" />
+    <ClCompile Include="..\..\libzen\File.cpp" />
+    <ClCompile Include="..\..\libzen\FileName.cpp" />
+    <ClCompile Include="..\..\libzen\HTTP_Client.cpp" />
+    <ClCompile Include="..\..\libzen\InfoMap.cpp" />
+    <ClCompile Include="..\..\libzen\int128s.cpp" />
+    <ClCompile Include="..\..\libzen\int128u.cpp" />
+    <ClCompile Include="..\..\libzen\MemoryDebug.cpp" />
+    <ClCompile Include="..\..\libzen\OS_Utils.cpp" />
+    <ClCompile Include="..\..\libzen\PreComp.cpp" />
+    <ClCompile Include="..\..\libzen\Thread.cpp" />
+    <ClCompile Include="..\..\libzen\Translation.cpp" />
+    <ClCompile Include="..\..\libzen\Utils.cpp" />
+    <ClCompile Include="..\..\libzen\Ztring.cpp" />
+    <ClCompile Include="..\..\libzen\ZtringList.cpp" />
+    <ClCompile Include="..\..\libzen\ZtringListList.cpp" />
+    <ClCompile Include="..\..\libzen\ZtringListListF.cpp" />
+    <ClCompile Include="..\..\libzen\Format\Html\Html_Handler.cpp" />
+    <ClCompile Include="..\..\libzen\Format\Html\Html_Request.cpp" />
+    <ClCompile Include="..\..\libzen\Format\Http\Http_Cookies.cpp" />
+    <ClCompile Include="..\..\libzen\Format\Http\Http_Handler.cpp" />
+    <ClCompile Include="..\..\libzen\Format\Http\Http_Request.cpp" />
+    <ClCompile Include="..\..\libzen\Format\Http\Http_Utils.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
