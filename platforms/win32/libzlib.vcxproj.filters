@@ -13,9 +13,6 @@
     <ClCompile Include="..\..\libzlib\deflate.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\libzlib\gzio.c">
-      <Filter>src</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\libzlib\infback.c">
       <Filter>src</Filter>
     </ClCompile>
@@ -49,6 +46,18 @@
     <ClCompile Include="..\..\libzlib\zutil.c">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\libzlib\gzclose.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libzlib\gzlib.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libzlib\gzread.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libzlib\gzwrite.c">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\libzlib\crc32.h">
@@ -71,6 +80,9 @@
     </ClInclude>
     <ClInclude Include="..\..\libzlib\zutil.h">
       <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\includes\gzguts.h">
+      <Filter>includes</Filter>
     </ClInclude>
     <ClInclude Include="..\..\includes\ioapi.h">
       <Filter>includes</Filter>

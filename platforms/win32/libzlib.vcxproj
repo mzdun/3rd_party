@@ -76,9 +76,6 @@
     <ClCompile Include="..\..\libzlib\deflate.c">
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="..\..\libzlib\gzio.c">
-      <PrecompiledHeader>NotUsing</PrecompiledHeader>
-    </ClCompile>
     <ClCompile Include="..\..\libzlib\infback.c">
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
     </ClCompile>
@@ -112,6 +109,18 @@
     <ClCompile Include="..\..\libzlib\zutil.c">
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="..\..\libzlib\gzclose.c">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\libzlib\gzlib.c">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\libzlib\gzread.c">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\libzlib\gzwrite.c">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\libzlib\crc32.h" />
@@ -121,6 +130,7 @@
     <ClInclude Include="..\..\libzlib\inflate.h" />
     <ClInclude Include="..\..\libzlib\inftrees.h" />
     <ClInclude Include="..\..\libzlib\zutil.h" />
+    <ClInclude Include="..\..\includes\gzguts.h" />
     <ClInclude Include="..\..\includes\ioapi.h" />
     <ClInclude Include="..\..\includes\unzip.h" />
     <ClInclude Include="..\..\includes\zconf.h" />
