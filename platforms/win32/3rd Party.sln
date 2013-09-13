@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.20623.1 VSUPREVIEW
+VisualStudioVersion = 12.0.20617.1 PREVIEW
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libexpat", "libexpat.vcxproj", "{A432694A-25B2-4CB8-A93F-CBB7A5D92D22}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libmediainfo", "libmediainfo.vcxproj", "{7237FBAF-AEF2-46A9-9232-1174D5F512F7}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "curl", "curl.vcxproj", "{855B7360-3DAA-499C-8D1D-1F5F79577ADF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libsqlite", "libsqlite.vcxproj", "{CBB9FC2E-AEE4-47AA-BA35-E75D56BF9871}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{855B7360-3DAA-499C-8D1D-1F5F79577ADF}.Debug|Win32.Build.0 = Debug|Win32
 		{855B7360-3DAA-499C-8D1D-1F5F79577ADF}.Release|Win32.ActiveCfg = Release|Win32
 		{855B7360-3DAA-499C-8D1D-1F5F79577ADF}.Release|Win32.Build.0 = Release|Win32
+		{CBB9FC2E-AEE4-47AA-BA35-E75D56BF9871}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CBB9FC2E-AEE4-47AA-BA35-E75D56BF9871}.Debug|Win32.Build.0 = Debug|Win32
+		{CBB9FC2E-AEE4-47AA-BA35-E75D56BF9871}.Release|Win32.ActiveCfg = Release|Win32
+		{CBB9FC2E-AEE4-47AA-BA35-E75D56BF9871}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
